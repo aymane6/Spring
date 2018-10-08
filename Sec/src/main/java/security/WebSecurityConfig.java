@@ -15,6 +15,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          .withUser("aymane").password("aymane").roles("USER")
          .and()
          .withUser("admin").password("pass123").roles("ADMIN");
+      
    }
 
    @Override
